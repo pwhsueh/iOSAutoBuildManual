@@ -13,6 +13,8 @@
 		50841EB11DFFE0E600596ACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50841EB01DFFE0E600596ACC /* Assets.xcassets */; };
 		50841EB41DFFE0E600596ACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50841EB21DFFE0E600596ACC /* LaunchScreen.storyboard */; };
 		50841EBF1DFFE0E600596ACC /* iOSAutoBuildManualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50841EBE1DFFE0E600596ACC /* iOSAutoBuildManualTests.swift */; };
+		50DDD1C01DFFE1F600F88E90 /* NumberOperationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDD1BF1DFFE1F600F88E90 /* NumberOperationUtility.swift */; };
+		50DDD1C11DFFE1F600F88E90 /* NumberOperationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DDD1BF1DFFE1F600F88E90 /* NumberOperationUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		50841EBA1DFFE0E600596ACC /* iOSAutoBuildManualTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAutoBuildManualTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50841EBE1DFFE0E600596ACC /* iOSAutoBuildManualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAutoBuildManualTests.swift; sourceTree = "<group>"; };
 		50841EC01DFFE0E600596ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DDD1BF1DFFE1F600F88E90 /* NumberOperationUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOperationUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 				50841EB01DFFE0E600596ACC /* Assets.xcassets */,
 				50841EB21DFFE0E600596ACC /* LaunchScreen.storyboard */,
 				50841EB51DFFE0E600596ACC /* Info.plist */,
+				50DDD1BF1DFFE1F600F88E90 /* NumberOperationUtility.swift */,
 			);
 			path = iOSAutoBuildManual;
 			sourceTree = "<group>";
@@ -203,6 +207,7 @@
 			files = (
 				50841EAC1DFFE0E600596ACC /* ViewController.swift in Sources */,
 				50841EAA1DFFE0E600596ACC /* AppDelegate.swift in Sources */,
+				50DDD1C01DFFE1F600F88E90 /* NumberOperationUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50841EBF1DFFE0E600596ACC /* iOSAutoBuildManualTests.swift in Sources */,
+				50DDD1C11DFFE1F600F88E90 /* NumberOperationUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +416,7 @@
 				50841EC51DFFE0E600596ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50841EC61DFFE0E600596ACC /* Build configuration list for PBXNativeTarget "iOSAutoBuildManualTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +425,7 @@
 				50841EC81DFFE0E600596ACC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
