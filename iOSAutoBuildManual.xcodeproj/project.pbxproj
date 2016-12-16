@@ -151,7 +151,7 @@
 					50841EA51DFFE0E600596ACC = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = D5SNDYZ6G9;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					50841EB91DFFE0E600596ACC = {
 						CreatedOnToolsVersion = 8.1;
@@ -345,11 +345,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Powen Hsueh (D5SNDYZ6G9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Powen Hsueh (D5SNDYZ6G9)";
 				DEVELOPMENT_TEAM = D5SNDYZ6G9;
 				INFOPLIST_FILE = iOSAutoBuildManual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bowen.iOSAutoBuildManual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "69d3b301-8c4b-4e6a-a73c-afda5abc7f35";
+				PROVISIONING_PROFILE_SPECIFIER = iOSAutoBuildManual_Dis;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -358,11 +362,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Powen Hsueh (D5SNDYZ6G9)";
 				DEVELOPMENT_TEAM = D5SNDYZ6G9;
 				INFOPLIST_FILE = iOSAutoBuildManual/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bowen.iOSAutoBuildManual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "69d3b301-8c4b-4e6a-a73c-afda5abc7f35";
+				PROVISIONING_PROFILE_SPECIFIER = iOSAutoBuildManual_Dis;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
